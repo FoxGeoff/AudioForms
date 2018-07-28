@@ -27,6 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 # Project: Audio Impact Angular Forms
+
 ## Check: Start Project
 1. Run `>ng new AudioForms --audio --routing`
 2. Run `> npm install`
@@ -49,7 +50,22 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ***
 
 ## Check: Add navigation side bar
-* #1
+* Ref. Off-canvas navigation side bar: 
 https://www.jqueryscript.net/menu/Modern-Off-canvas-Accordion-Navigation-With-jQuery-sidenav.html
 
 ***
+## Generate the components Listing 2.16:
+```
+ng g c home
+ng g c carousel
+ng g c footer
+ng g c navbar
+ng g c product-item
+ng g c product-detail
+ng g c search
+ng g c stars
+```
+## Generate the Product Service
+```
+ng g s shared/product
+```

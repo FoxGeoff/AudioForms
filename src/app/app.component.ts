@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 declare var $: any;
 
 @Component({
@@ -8,8 +7,9 @@ declare var $: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  
   ngOnInit(): void {
-
+   
     $(".openNav").click(function(){
        openNav();
     })
