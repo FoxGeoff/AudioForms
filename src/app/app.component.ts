@@ -28,7 +28,6 @@ export class AppComponent implements OnInit {
       document.getElementById("main").style.marginLeft = "0";
     }
   }
-  title = 'Audio Impact Administration';
 }
 
 
