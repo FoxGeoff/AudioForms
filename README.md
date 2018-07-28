@@ -72,3 +72,4 @@ ng g s shared/product
 ***
 ## Check: Add app.component.html layout
 ## Check: Add navbar.component.html layout
+## Check: Add footer.component.html layout
