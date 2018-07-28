@@ -10,10 +10,23 @@
 
 <div id="main">
   <h2>{{title}}</h2>
-  <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+  <p style="color: red"><strong>NOT FOR PRODUCT REV 1.0.0 </strong></p>
   <span class="openNav" style="font-size:30px;cursor:pointer">&#9776; open</span>
 
-  <router-outlet></router-outlet>
+  <app-navbar></app-navbar>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <app-search></app-search>
+      </div>
+
+      <div class="col-md-9">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+
+  <app-footer></app-footer>
 
 </div>
-
