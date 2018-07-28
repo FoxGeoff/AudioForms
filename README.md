@@ -48,13 +48,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ]
 ```
 ***
-
 ## Check: Add navigation side bar
 * Ref. Off-canvas navigation side bar: 
 https://www.jqueryscript.net/menu/Modern-Off-canvas-Accordion-Navigation-With-jQuery-sidenav.html
 
 ***
-## Generate the components Listing 2.16:
+## Check: Generate the components
 ```
 ng g c home
 ng g c carousel
@@ -65,7 +64,9 @@ ng g c product-detail
 ng g c search
 ng g c stars
 ```
-## Generate the Product Service
+***
+## Check: Generate the Product Service
 ```
 ng g s shared/product
 ```
+***
