@@ -73,3 +73,6 @@ ng g s shared/product
 ## Check: Add app.component.html layout
 ## Check: Add navbar.component.html layout
 ## Check: Add footer.component.html layout
+## Check: Add product-item.component.html layout
+1. Add code to shared/product.service.ts
+2. Add product model shared/product.ts
