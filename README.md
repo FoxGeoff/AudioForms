@@ -78,3 +78,4 @@ ng g s shared/product
 1. Add code to shared/product.service.ts
 2. Add product model shared/product.ts
 ## Check: Add home.component.html and code and routing
+## Check: Add Carousel
