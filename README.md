@@ -79,3 +79,4 @@ ng g s shared/product
 2. Add product model shared/product.ts
 ## Check: Add home.component.html and code and routing
 ## Check: Add Carousel
+## CHeck: Add Advance Search html
