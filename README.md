@@ -74,10 +74,13 @@ ng g s shared/product
 ## Check: Add navbar.component.html layout
 ## Check: Add footer.component.html layout
 ## Check: Add product-item.component.html layout
-## Update product-item and services
+## Check:Update product-item and services
 1. Add code to shared/product.service.ts
 2. Add product model shared/product.ts
 ## Check: Add home.component.html and code and routing
 ## Check: Add Carousel
 ## Check: Add Advance Search html
 ## Check: Add Product-detail
+## Check: Add Stars 
+1. Run `npm i material-design-icons`
+1. Add to styles.css `@import "../node_modules/material-design-icons/iconfont/material-icons.css";`
