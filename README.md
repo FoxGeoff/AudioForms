@@ -84,3 +84,4 @@ ng g s shared/product
 ## Check: Add Stars 
 1. Run `npm i material-design-icons`
 1. Add to styles.css `@import "../node_modules/material-design-icons/iconfont/material-icons.css";`
+## Check: Add ProductImage detail page
