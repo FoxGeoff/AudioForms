@@ -1,11 +1,13 @@
-<p>
-  product-image-detail works!
-</p>
+<h3>
+  Product Image Details
+</h3>
 
 <figure class="figure">
-  <img src="http://placehold.it/820x320" class="figure-img img-fluid rounded">
+  <img src="data:image/JPEG;base64,{{productImage.imageThumb}}" class="figure-img img-fluid rounded" width="200px">
+  <img src="data:image/JPEG;base64,{{productImage.imageFull}}" class="figure-img img-fluid rounded">
+  Id: {{productImage.id}} 
   <figcaption class="figure-caption">
     <h4>File Name: {{productImage.fileName}}</h4>
-    <h5>Id: {{productImage.id}}</h5>
+    <h5>Updated On: {{productImage.dateUpdated |date:'medium' }}</h5>
   </figcaption>
 </figure>

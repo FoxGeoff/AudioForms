@@ -1,17 +1,17 @@
 figure {
-    margin-top: 1em;
-  }
-  
-  h4 {
-    color: blue;
-  }
-  
-  h5 {
-    color: green;
-  }
-  
-  .ratings {
-    color: darkgreen;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+  margin-top: 1em;
+}
+ 
+h4 {
+  color: teal;
+}
+
+h5 {
+  color: green;
+}
+
+.ratings {
+  color: darkgreen;
+  padding-left: 10px;
+  padding-right: 10px;
+}
