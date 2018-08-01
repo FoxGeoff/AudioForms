@@ -1,0 +1,7 @@
+<h4>Product Image List</h4>
+
+<div class="row">
+  <div *ngFor="let productImage of productImages" class="col-sm-4 col-lg-4 col-md-4">
+    <app-product-image-item [productImage]="productImage"></app-product-image-item>
+  </div>
+</div>

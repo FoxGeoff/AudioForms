@@ -13,6 +13,8 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { SearchComponent } from './search/search.component';
 import { StarsComponent } from './stars/stars.component';
 import { ProductImageDetailComponent } from './product-image-detail/product-image-detail.component';
+import { ProductImageItemComponent } from './product-image-item/product-image-item.component';
+import { ProductImageItemHomeComponent } from './product-image-item-home/product-image-item-home.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ProductImageDetailComponent } from './product-image-detail/product-imag
     ProductDetailComponent,
     SearchComponent,
     StarsComponent,
-    ProductImageDetailComponent
+    ProductImageDetailComponent,
+    ProductImageItemComponent,
+    ProductImageItemHomeComponent
   ],
   imports: [
     BrowserModule,

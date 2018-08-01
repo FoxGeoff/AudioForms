@@ -28,6 +28,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Project: Audio Impact Angular Forms
 
+Ref: https://en.wikipedia.org/wiki/Enterprise_resource_planning
+
+Bootstrap 4 admin Angular 6 (use this)
+Ref: https://www.creative-tim.com/product/now-ui-dashboard-angular
+Ref: https://demos.creative-tim.com/now-ui-dashboard-angular/dashboard
+Ref: https://demos.creative-tim.com/now-ui-dashboard-angular/documentation/tutorial
+
 ## Check: Start Project
 1. Run `>ng new AudioForms --audio --routing`
 2. Run `> npm install`
@@ -85,4 +92,4 @@ ng g s shared/product
 1. Run `npm i material-design-icons`
 1. Add to styles.css `@import "../node_modules/material-design-icons/iconfont/material-icons.css";`
 ## Check: Add Product Image detail page
-## Check: Develop Product Image model <<here @ 3:30 pm>>
+## Check: Develop Product Image model <<here @ 12:00 pm 8/1/2018>>

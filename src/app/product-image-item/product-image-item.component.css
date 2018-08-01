@@ -1,0 +1,10 @@
+figure {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .ratings {
+    color: darkred;
+}
