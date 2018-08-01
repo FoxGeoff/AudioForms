@@ -15,7 +15,7 @@ export class ProductImageDetailComponent implements OnInit {
   constructor(private route: ActivatedRoute, private productImageService: ProductImageService) { }
 
   ngOnInit() {
-    const prodId: number = parseInt(this.route.snapshot.params['productId'], 10);
+    const prodId: number = parseInt(this.route.snapshot.params['productImageId'], 10);
     this.productImage = this.productImageService.getProductById(prodId);
   }
 

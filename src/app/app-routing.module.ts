@@ -6,10 +6,11 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { ProductImageDetailComponent } from './product-image-detail/product-image-detail.component';
 
 const routes: Routes = [
-  { path: '', component: ProductImageItemHomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'products/:productId', component: ProductDetailComponent },
-  { path: 'productImages/:productId', component: ProductImageDetailComponent }
-];
+  { path: 'productImages/:productImageId', component: ProductImageDetailComponent },
+  { path: 'productImages', component: ProductImageItemHomeComponent },
+]; 
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

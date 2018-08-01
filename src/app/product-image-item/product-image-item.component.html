@@ -1,10 +1,8 @@
-
 <figure class="figure">
-  <img src="http://placehold.it/320x150" class="figure-img img-fluid rounded">
+  <img src="data:image/JPEG;base64,{{productImage.imageFull}}" class="figure-img img-fluid rounded" width="150px">
   <figcaption class="figure-caption">
     <h5>
       <a [routerLink]="['/productImages', productImage.id]">{{productImage.fileName}}</a>
       <span> id: {{productImage.id}}</span>
     </h5>
   </figcaption>
-  
