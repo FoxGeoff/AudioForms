@@ -1,12 +1,15 @@
-<h3>
-  Product Image Details
-</h3>
+<h3>Product Image Details</h3>
+
+
 
 <figure class="figure">
   <img src="data:image/JPEG;base64,{{productImage.imageFull}}" class="figure-img img-fluid rounded" width="150px">
-  <img src="data:image/JPEG;base64,{{productImage.imageThumb}}" class="figure-img img-fluid rounded"> Id: {{productImage.id}}
+  <img src="data:image/JPEG;base64,{{productImage.imageThumb}}" class="figure-img img-fluid rounded"> Item #: {{productImage.id}}
   <figcaption class="figure-caption">
-    <h4>File Name: {{productImage.fileName}}</h4>
-    <h5>Updated On: {{productImage.dateUpdated |date:'medium' }}</h5>
+    <h4>{{productImage.fileName}}</h4>
+    <h5>Updated: {{productImage.dateUpdated |date:'medium' }}</h5>
   </figcaption>
 </figure>
+<nav class="col-md-12">
+  <button class="btn btn-primary" routerLink="/productImages">Back</button>
+</nav>
