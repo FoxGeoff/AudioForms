@@ -93,3 +93,4 @@ ng g s shared/product
 1. Add to styles.css `@import "../node_modules/material-design-icons/iconfont/material-icons.css";`
 ## Check: Add Product Image detail page
 ## Check: Develop Product Image model <<here @ 12:00 pm 8/1/2018>>
+.
